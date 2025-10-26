@@ -1,0 +1,23 @@
+{
+    "intents": [
+        {
+            "name": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey"
+            ],
+            "response": "Hello! How can I assist you today?",
+            "action": null
+        },
+        {
+            "name": "run_task",
+            "patterns": [
+                "run automation",
+                "trigger task"
+            ],
+            "response": "Running automation task now!",
+            "action": "run_script"
+        }
+    ]
+}
